@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
     let content = "";
 
     if (nvidiaKey && !nvidiaKey.includes("your-free-key")) {
-      const modelName = process.env.NEMOTRON_MODEL || "nvidia/nemotron-parse";
+      const modelName = process.env.NEMOTRON_MODEL || "meta/llama-3.2-11b-vision-instruct";
       const nvRes = await fetch("https://integrate.api.nvidia.com/v1/chat/completions", {
         method: "POST",
         headers: {
