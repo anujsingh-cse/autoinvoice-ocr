@@ -34,10 +34,7 @@ export async function POST(req: NextRequest) {
         body: JSON.stringify({
           input: [
             {
-              type: "image_url",
-              image_url: {
-                url: `data:${file.type};base64,${base64}`
-              }
+              url: `data:${file.type};base64,${base64}`
             }
           ]
         })
