@@ -69,7 +69,7 @@ export default function AutoInvoiceDashboard() {
             Extract Data from Any Invoice. <span className="text-indigo-600">Instantly.</span>
           </h1>
           <p className="text-lg text-slate-600">
-            Powered by AWS Textract and custom LLM layout parsing, AutoInvoice turns messy, unstructured PDFs into perfectly formatted JSON ready for your ERP.
+            Powered by NVIDIA Nemotron OCR & Vision models, AutoInvoice turns messy, unstructured invoices into perfectly formatted JSON ready for your ERP.
           </p>
         </div>
 
