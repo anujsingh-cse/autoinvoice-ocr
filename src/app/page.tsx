@@ -94,11 +94,11 @@ export default function AutoInvoiceDashboard() {
                     type="file" 
                     className="hidden" 
                     onChange={handleUpload} 
-                    accept=".pdf,image/png,image/jpeg" 
+                    accept="image/png,image/jpeg" 
                   />
                   <FileText className="h-12 w-12 text-slate-400 mx-auto mb-4" />
                   <p className="font-medium text-slate-700 text-lg">Click to upload sample invoice</p>
-                  <p className="text-slate-500 text-sm mt-2">PDF, PNG, JPG up to 10MB</p>
+                  <p className="text-slate-500 text-sm mt-2">PNG, JPG up to 10MB</p>
                 </motion.label>
               )}
 
